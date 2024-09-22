@@ -1,0 +1,133 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.navbar ul li a:hover {
+  color: #ff6347;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+/* Header Styles */
+.page-header {
+  text-align: center;
+ 
+  padding: 20px 0;
+ 
+  margin-top: 70px;
+}
+
+.page-header h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #3a0ce0;
+}
+
+/* Hero Section */
+.hero {
+  background: url('food.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 100px; /* Extra padding to adjust for the fixed navbar */
+}
+
+.quote h1 {
+  font-size: 48px;
+  color: #ff6347;
+}
+
+.quote p {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center; /* Centers all text in the footer */
+}
+
+.footer p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* Center the list */
+  display: inline-block; /* Ensures the list takes only as much space as needed */
+}
+
+.footer ul li {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.footer ul li:before {
+  content: "• ";
+  color: #ff6347;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+

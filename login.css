@@ -1,0 +1,45 @@
+body {
+    background-image: url(https://wallpaperbat.com/img/80160-healthy-food-wallpaper-1080p-is-cool-wallpaper-data-world-food.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1540px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+.welcome{
+    background-image: url(https://wallpaperbat.com/img/80160-healthy-food-wallpaper-1080p-is-cool-wallpaper-data-world-food.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 1540px;
+}
+
+
+
